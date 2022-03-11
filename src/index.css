@@ -1,4 +1,4 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -11,4 +11,15 @@
     @apply text-white border bg-indigo-600 border-indigo-600 transition duration-300 ease-out
     hover:bg-transparent transition duration-300 ease-out hover:text-indigo-600;
   }
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+}
+body {
+  height: 100%;
+  width: 100%;
 }

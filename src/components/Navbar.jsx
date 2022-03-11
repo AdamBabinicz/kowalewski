@@ -10,10 +10,10 @@ const Navbar = () => {
 
   return (
     <div className="container">
-      <div className="px-2 flex justify-between items-center w-full h-full">
-        <div className="flex items-center">
-          <h3 className="text-xl font-bold mr-4 sm:text-base">kryptolog</h3>
-          <ul className="hidden md:flex">
+      <div className="wrapper">
+        <div className="content">
+          <h3 className="title">kryptolog</h3>
+          <ul className="list">
             <li>
               <Link to="home" smooth={true} duration={500}>
                 Start

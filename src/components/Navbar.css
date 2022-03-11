@@ -7,3 +7,41 @@
   filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04))
     drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
 }
+.wrapper {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.content {
+  display: flex;
+  align-items: center;
+}
+.title {
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.75rem; /* 28px */
+  font-weight: bold;
+  margin-right: 1rem; /* 16px */
+}
+.list {
+  display: flex;
+}
+
+@media only screen and (max-width: 580px) {
+  .wrapper {
+    width: 100vw;
+  }
+  .title {
+    font-size: 1rem; /* 16px */
+    line-height: 1.5rem; /* 24px */
+  }
+  .list {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 678px) {
+}
