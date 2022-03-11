@@ -50,7 +50,7 @@ const Navbar = () => {
           {!nav ? <MenuIcon className="w-5" /> : <XIcon className="w-5" />}
         </div>
       </div>
-      <ul className={!nav ? "hidden" : "absolute bg-gray-500 w-full px-8 z-20"}>
+      <ul className={!nav ? "hidden" : "absolute bg-zinc-200 w-full px-8 z-20"}>
         <li className="border-b-2 border-zinc-300 w-full">
           <Link onClick={handleClose} to="home" smooth={true} duration={500}>
             Start
