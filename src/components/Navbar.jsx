@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import { Link, animateScroll as scroll } from "react-scroll";
+import "./Navbar.css";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -8,7 +9,7 @@ const Navbar = () => {
   const handleClose = () => setNav(!nav);
 
   return (
-    <div className="w-screen h-[80px] z-10 bg-zinc-200 fixed drop-shadow-lg">
+    <div className="container">
       <div className="px-2 flex justify-between items-center w-full h-full">
         <div className="flex items-center">
           <h3 className="text-xl font-bold mr-4 sm:text-base">kryptolog</h3>
