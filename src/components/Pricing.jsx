@@ -9,7 +9,7 @@ const Pricing = () => {
       <div className="max-w-[1240px] mx-auto py-12">
         <div className="text-center py-8 text-slate-300">
           <h2 className="text-xl uppercase">Awanse</h2>
-          <h3 className="text-2xl font-bold text-white py-8">
+          <h3 className="text-2xl font-bold text-white py-8 sm:text-xl">
             Prezydent RP Andrzej Duda na wniosek Ministra Obrony Narodowej 22
             września 2020 mianował Jana Kowalewskiego pośmiertnie na stopień
             generała brygady
