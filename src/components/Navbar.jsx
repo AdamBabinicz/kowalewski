@@ -11,7 +11,7 @@ const Navbar = () => {
     <div className="w-screen h-[80px] z-10 bg-zinc-200 fixed drop-shadow-lg">
       <div className="px-2 flex justify-between items-center w-full h-full">
         <div className="flex items-center">
-          <h3 className="text-xl font-bold mr-4 sm:text-xl">kryptolog</h3>
+          <h3 className="text-xl font-bold mr-4 sm:text-base">kryptolog</h3>
           <ul className="hidden md:flex">
             <li>
               <Link to="home" smooth={true} duration={500}>
