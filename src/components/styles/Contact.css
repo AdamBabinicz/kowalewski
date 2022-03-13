@@ -1,0 +1,48 @@
+.contact {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(var(--sec-bg)),
+    url(../assets/4.png) top center/cover no-repeat fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-inline: 20em;
+  color: var(--clr-white);
+}
+.contact h2 {
+  font-size: clamp(1rem, 2vw + 1rem, 2rem);
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  margin: 2rem 0;
+  text-align: center;
+}
+.contact h3 {
+  font-family: "Zilla Slab Highlight", cursive;
+  line-height: 2.5rem;
+  text-align: center;
+}
+.contact p {
+  line-height: 1.6rem;
+  padding-block: 0.5rem;
+  font-size: clamp(0.9rem, 1vw + 0.15em, 5rem);
+}
+.contact .back {
+  cursor: pointer;
+  color: var(--clr-white);
+  font-size: 3rem;
+  transition: all 0.4s ease-in-out;
+  margin: 2rem 0;
+}
+.contact .back:hover {
+  opacity: 0.5;
+}
+
+@media (max-width: 1000px) {
+  .contact {
+    padding-inline: 2em;
+  }
+  .contact h3 {
+    line-height: 1.6rem;
+  }
+}

@@ -1,0 +1,38 @@
+.details {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(var(--sec-bg)),
+    url(../assets/5.png) center/cover no-repeat fixed;
+  display: flex;
+  align-items: center;
+  color: var(--clr-white);
+  padding-inline: 4em;
+}
+.details > * {
+  text-align: left;
+  /* cursor: pointer; */
+}
+.details-header {
+  font-size: clamp(2rem, 4vw + 1rem, 4rem);
+  font-family: "Merriweather", serif;
+}
+.details-text span {
+  display: inline-block;
+  font-family: "Nosifer", cursive;
+  font-size: clamp(3rem, 8vw + 1rem, 5rem);
+  font-weight: lighter;
+  color: red;
+}
+.details-text p {
+  padding-block: 0.5rem;
+  font-size: clamp(0.3rem, 1vw + 0.4rem, 10rem);
+}
+.done-btn {
+  margin-block: 1.543rem;
+}
+.done-btn a {
+  text-decoration: none;
+  padding: 1rem;
+  color: var(--clr-white);
+  background: hsl(var(--clr-glass));
+}
