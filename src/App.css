@@ -8,8 +8,11 @@
 }
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
-
+body {
+  overflow-x: hidden;
+}
 img,
 picture {
   max-width: 100%;

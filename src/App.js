@@ -5,6 +5,7 @@ import Details from "./components/pages/Details";
 import Carousel from "./components/pages/Carousel";
 import { Data } from "./components/variables/Data";
 import CookieConsent from "react-cookie-consent";
+import Footer from "./components/pages/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Section />
       <Details />
       <Carousel slides={Data} />
+      <Footer />
       <CookieConsent
         debug={true}
         location="bottom"
