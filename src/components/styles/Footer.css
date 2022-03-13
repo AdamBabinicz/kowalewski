@@ -1,7 +1,7 @@
 .footer {
   height: auto;
   width: 100%;
-  background: hsl(var(--clr-bg));
+  background: linear-gradient(var(--sec-bg));
   position: relative;
 }
 .carts {
