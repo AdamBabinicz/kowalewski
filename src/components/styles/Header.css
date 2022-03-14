@@ -49,6 +49,7 @@
   }
   .header-logo {
     background: green;
+    display: block;
   }
   .header-logo img {
     height: 3rem;
