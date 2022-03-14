@@ -44,9 +44,9 @@
   .header {
     align-items: baseline;
     background: violet;
-    justify-self: start;
   }
   .header-logo {
+    justify-content: space-between;
     background: green;
   }
   .header-logo img {
