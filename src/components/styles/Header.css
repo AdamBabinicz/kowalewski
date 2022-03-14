@@ -45,7 +45,7 @@
     align-items: baseline;
     background: violet;
     display: flex;
-    justify-content: space-between !important;
+    justify-content: flex-start;
   }
   .header-logo {
     background: green;
