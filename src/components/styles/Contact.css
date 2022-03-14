@@ -7,7 +7,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-inline: 20em;
+  padding: 0 20em;
   color: var(--clr-white);
 }
 .contact h2 {
@@ -40,7 +40,7 @@
 
 @media (max-width: 1000px) {
   .contact {
-    padding-inline: 2em;
+    padding: 0 2em;
   }
   .contact h3 {
     line-height: 1.6rem;
