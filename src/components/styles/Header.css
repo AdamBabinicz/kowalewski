@@ -43,10 +43,6 @@
 @media (max-width: 1000px) {
   .header {
     align-items: baseline;
-    background: violet;
-  }
-  .header-logo {
-    background: yellow;
   }
   .header-logo img {
     height: 3rem;
