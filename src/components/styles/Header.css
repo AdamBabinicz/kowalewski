@@ -61,6 +61,7 @@
     transition: 500ms;
     z-index: 2;
     background: hsl(var(--clr-bg));
+    background: red;
   }
   .list-items li a {
     margin-bottom: 1.5rem;
@@ -79,7 +80,7 @@
     color: var(--clr-white);
     cursor: pointer;
     position: absolute;
-    right: 2rem;
+    right: 1.5rem;
     top: 1.25rem;
   }
   .hamburger-icon .icon {
