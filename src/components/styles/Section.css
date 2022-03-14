@@ -61,4 +61,7 @@
   .section {
     justify-content: center;
   }
+  .section-header {
+    font-size: 12px;
+  }
 }
