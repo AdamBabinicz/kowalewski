@@ -57,6 +57,7 @@
     transform: translateX(100%);
     transition: 500ms;
     z-index: 1000;
+    background: hsl(var(--clr-bg));
   }
   .list-items li a {
     margin-bottom: 1.5rem;
