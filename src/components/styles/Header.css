@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 15px;
+  z-index: 1;
 }
 .header-logo img {
   width: 100%;
@@ -42,7 +43,7 @@
 @media (max-width: 1000px) {
   .header {
     align-items: baseline;
-    z-index: 1;
+    background: violet;
   }
   .header-logo img {
     height: 3rem;
