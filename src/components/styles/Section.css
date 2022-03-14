@@ -62,7 +62,7 @@
 @media (max-width: 1000px) {
   .section > * {
     text-align: center;
-    max-width: 45ch;
+    max-width: 35ch;
     background: orange;
   }
   .section {
