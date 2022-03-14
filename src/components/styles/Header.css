@@ -44,10 +44,10 @@
   .header {
     align-items: baseline;
     background: violet;
-  }
-  .header-logo {
     display: flex;
     justify-content: space-between !important;
+  }
+  .header-logo {
     background: green;
   }
   .header-logo img {
