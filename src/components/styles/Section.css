@@ -19,7 +19,7 @@
 }
 .section-header span {
   display: block;
-  font-size: clamp(3.5rem, 6vw + 1rem, 8rem);
+  font-size: 6rem;
   font-family: "Merriweather", serif;
   text-transform: uppercase;
   color: var(--clr-glass);
@@ -64,6 +64,8 @@
   .section-header {
     font-size: 12px;
     margin: 0 2rem 1rem;
-    color: red;
+  }
+  .section-header span {
+    font-size: 3rem;
   }
 }
