@@ -1,4 +1,4 @@
-.modal {
+.modal1 {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -13,7 +13,7 @@
   padding: 2rem;
   z-index: 3;
 }
-.modal .title {
+.modal1 .title {
   max-height: content;
   max-width: 100%;
   color: var(--clr-white);
@@ -38,12 +38,12 @@
 }
 
 @media (max-width: 1000px) {
-  .modal {
+  .modal1 {
     width: 90%;
     flex-direction: column;
     background: rgba(0, 0, 0, 0.9);
   }
-  .modal .title {
+  .modal1 .title {
   }
   .inputs {
     flex-direction: column;
@@ -56,7 +56,7 @@
 }
 
 @media (max-width: 400px) {
-  .modal .title {
+  .modal1 .title {
   }
   .inputs {
     width: 85%;

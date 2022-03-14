@@ -4,9 +4,9 @@ import { GrCaretNext } from "react-icons/gr";
 import "../styles/Modal.css";
 import img from "../assets/2.png";
 
-const Modal = ({ isActive }) => {
+const Modal1 = ({ isActive }) => {
   return (
-    <div className="modal">
+    <div className="modal1">
       <div className="close-modal">
         <AiOutlineClose className="icon" onClick={isActive} />
       </div>
@@ -27,4 +27,4 @@ const Modal = ({ isActive }) => {
   );
 };
 
-export default Modal;
+export default Modal1;

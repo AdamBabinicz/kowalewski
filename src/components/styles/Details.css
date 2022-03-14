@@ -7,6 +7,7 @@
   align-items: center;
   color: var(--clr-white);
   padding: 0 1.5em;
+  position: relative;
 }
 .details > * {
   text-align: left;

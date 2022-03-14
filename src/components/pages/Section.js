@@ -4,7 +4,7 @@ import Matematyk from "../variables/Matematyk";
 import Poliglota from "../variables/Poliglota";
 import Kryptolog from "../variables/Kryptolog";
 import { Link } from "react-router-dom";
-import Modal from "../variables/Modal";
+import Modal1 from "../variables/Modal1";
 
 const Section = () => {
   const [text, setText] = useState("first-con");
@@ -45,7 +45,7 @@ const Section = () => {
               Zobacz
             </Link>
           </div>
-          {isModalActive && <Modal isActive={isActive} />}
+          {isModalActive && <Modal1 isActive={isActive} />}
         </div>
       </div>
     </div>
