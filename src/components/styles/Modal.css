@@ -40,6 +40,8 @@
 @media (max-width: 1000px) {
   .modal {
     width: 90%;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.9);
   }
   .modal .title {
   }
@@ -49,6 +51,7 @@
   }
   .inputs img {
     object-fit: contain;
+    margin-top: 1rem;
   }
 }
 
