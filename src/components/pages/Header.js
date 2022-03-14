@@ -24,13 +24,13 @@ const Header = () => {
           <div className="close-icon">
             <AiOutlineClose className="icon" onClick={showMenu} />
           </div>
-          <li>
+          <li onClick={showMenu}>
             <a href="/#">Start</a>
           </li>
-          <li>
+          <li onClick={showMenu}>
             <a href="#awans">Awans</a>
           </li>
-          <li>
+          <li onClick={showMenu}>
             <a href="#galeria">Galeria</a>
           </li>
           {/* <li>
