@@ -33,26 +33,26 @@
   justify-content: space-around;
   background: hsl(var(--clr-glass));
   backdrop-filter: blur(1rem);
-  margin-block: 2rem;
+  margin: 2rem;
 }
 .state-change-btn {
-  background: none;
   border: none;
   color: var(--clr-white);
   font-size: clamp(10px, 1vw + 0.4rem, 25px);
   cursor: pointer;
-  padding-block: 1.5rem;
+  padding: 1.5rem;
+  background: rgba(0, 0, 0, 0.21);
 }
 .button {
-  margin-block: 2rem;
+  margin: 2rem;
 }
 .section-button {
   color: var(--clr-white);
   text-decoration: none;
   background: hsl(var(--clr-glass));
   backdrop-filter: blur(1rem);
-  padding-block: 0.8em;
-  padding-inline: 1rem;
+  margin-top: 2rem;
+  padding: 0.8em;
 }
 
 @media (max-width: 1000px) {
