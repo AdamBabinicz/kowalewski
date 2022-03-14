@@ -11,7 +11,7 @@
   align-items: center;
   justify-content: center;
   padding: 2rem;
-  z-index: 2;
+  z-index: 3;
 }
 .modal .title {
   max-height: content;
