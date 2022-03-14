@@ -53,9 +53,15 @@
     right: 0;
     bottom: 0;
     justify-content: center;
-    gap: 4rem;
+    /* gap: 4rem; */
     transform: translateX(100%);
     transition: 500ms;
+    z-index: 900;
+  }
+  .list-items li a {
+    padding-block: 1.5rem;
+    padding-inline: 3rem;
+    color: green;
   }
   .list-items.active {
     transform: translateX(0);
@@ -74,7 +80,7 @@
     top: 1.25rem;
   }
   .hamburger-icon .icon {
-    font-size: clamp(4rem, 6vw + 1rem, 6rem);
+    font-size: 2rem;
     color: red;
   }
 }
