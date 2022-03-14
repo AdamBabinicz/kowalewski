@@ -8,7 +8,7 @@
   z-index: 1;
 }
 .header-logo img {
-  width: 100%;
+  max-width: 100%;
   height: 5rem;
   object-fit: contain;
 }
@@ -44,15 +44,12 @@
   .header {
     align-items: baseline;
     background: violet;
-    display: flex;
-    justify-content: flex-start;
   }
   .header-logo {
-    background: red;
+    background: yellow;
   }
   .header-logo img {
     height: 3rem;
-    align-self: flex-start;
   }
   .list-items {
     flex-direction: column;
