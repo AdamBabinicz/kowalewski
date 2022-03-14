@@ -6,7 +6,7 @@
   display: flex;
   align-items: center;
   color: var(--clr-white);
-  padding-inline: 4em;
+  padding: 0 4em;
 }
 .details > * {
   text-align: left;
@@ -24,11 +24,11 @@
   color: red;
 }
 .details-text p {
-  padding-block: 0.5rem;
+  padding: 0.5rem;
   font-size: clamp(0.3rem, 1vw + 0.4rem, 10rem);
 }
 .done-btn {
-  margin-block: 1.543rem;
+  margin: 1.543rem;
 }
 .done-btn a {
   text-decoration: none;
