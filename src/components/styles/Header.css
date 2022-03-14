@@ -56,12 +56,12 @@
     right: 0;
     bottom: 0;
     justify-content: space-around;
+    align-items: center;
     /* gap: 4rem; */
     transform: translateX(100%);
     transition: 500ms;
     z-index: 2;
-    background: hsl(var(--clr-bg));
-    background: red;
+    background: #000;
   }
   .list-items li a {
     margin-bottom: 1.5rem;
