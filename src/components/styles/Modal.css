@@ -5,12 +5,13 @@
   transform: translate(-50%, -50%);
   width: 50%;
   height: auto;
-  background: hsl(var(--clr-glass));
+  background: rgba(0, 0, 0, 0.21);
   backdrop-filter: blur(1.5rem);
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 2rem;
+  z-index: 2;
 }
 .modal .title {
   max-height: content;
