@@ -46,6 +46,7 @@
     background: violet;
   }
   .header-logo {
+    display: flex;
     justify-content: space-between;
     background: green;
   }
