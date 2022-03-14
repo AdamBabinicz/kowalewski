@@ -45,29 +45,16 @@
     z-index: 999;
   }
   .list-items {
-    /* flex-direction: column;
-    position: fixed;
-    inset: 0 0 0 30%;
-    justify-content: center;
-    gap: 4rem;
-    transform: translateX(100%);
-    transition: 500ms; */
-
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
     position: fixed;
-    inset: 0 0 0 30%;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
+    /* inset: 0 0 0 30%; */
+    top: 0;
+    left: 50%;
+    right: 0;
+    bottom: 0;
     justify-content: center;
     gap: 4rem;
-    -webkit-transform: translateX(100%);
-    -ms-transform: translateX(100%);
     transform: translateX(100%);
-    -webkit-transition: 500ms;
-    -o-transition: 500ms;
     transition: 500ms;
   }
   .list-items.active {
@@ -87,6 +74,7 @@
     top: 1.25rem;
   }
   .hamburger-icon .icon {
-    font-size: clamp(2rem, 6vw + 1rem, 6rem);
+    font-size: clamp(4rem, 6vw + 1rem, 6rem);
+    color: red;
   }
 }
