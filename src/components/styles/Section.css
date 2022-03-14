@@ -5,7 +5,7 @@
   min-height: 100vh;
   display: flex;
   align-items: center;
-  padding-inline: 4rem;
+  padding: 0 4rem;
 }
 .section > * {
   text-align: center;
@@ -29,9 +29,7 @@
   font-size: clamp(10px, 1vw + 0.4rem, 20px);
   text-align: left;
   color: var(--clr-white);
-  padding: 0 1rem;
   line-height: 1.5rem;
-  background: violet;
 }
 .change-box {
   display: flex;
