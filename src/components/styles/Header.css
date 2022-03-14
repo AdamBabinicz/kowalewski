@@ -59,9 +59,8 @@
     z-index: 900;
   }
   .list-items li a {
-    padding-block: 1.5rem;
-    padding-inline: 3rem;
-    color: green;
+    margin-bottom: 1.5rem;
+    color: orange;
   }
   .list-items.active {
     transform: translateX(0);
