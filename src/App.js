@@ -6,10 +6,12 @@ import Carousel from "./components/pages/Carousel";
 import { Data } from "./components/variables/Data";
 import CookieConsent from "react-cookie-consent";
 import Footer from "./components/pages/Footer";
+import ScrollToTop from "./ScrollToTop";
 
 function App() {
   return (
     <>
+      <ScrollToTop />
       <Header />
       <Section />
       <Details />
